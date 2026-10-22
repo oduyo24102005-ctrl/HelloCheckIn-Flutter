@@ -1,0 +1,40 @@
+
+name: phamtheduy_hello_chamcong
+description: "Ung dung cham cong nhan vien nhom Hello"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Giao diện
+  cupertino_icons: ^1.0.8
+
+  # Kết nối Backend ASP.NET Core
+  http: ^1.2.2
+
+  # Lấy vị trí GPS
+  geolocator: ^12.0.0
+
+  # Quét mã QR
+  mobile_scanner: ^5.2.3
+
+  # Tạo mã QR
+  qr_flutter: ^4.1.0
+
+  # Cảm biến chuyển động
+  sensors_plus: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
